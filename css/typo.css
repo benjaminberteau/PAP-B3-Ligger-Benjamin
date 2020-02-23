@@ -1,0 +1,60 @@
+
+@import url('https://fonts.googleapis.com/css?family=Fira+Sans:400,700|Lato:400,700&display=swap');
+
+p{
+    font-family: 'Lato';
+}
+
+h1,h2,h3,h4,h5,h6{
+    font-family: "Fira Sans";
+    font-weight: bold;
+}
+
+h1{
+    margin: auto;
+    max-width: max-content;
+    color: #252525;
+    font-size: 2.8em;
+    font-style: normal;
+    font-weight: bold;
+    font-family: 'Fira Sans', sans-serif;
+    background-image: linear-gradient(transparent calc(100% - .4em),#FFB800 .4em);
+    background-size: contain;
+}
+
+h2{
+    margin: auto;
+    max-width: max-content;
+    color: #252525;
+    font-size: 2em;
+    font-style: normal;
+    font-weight: bold;
+    font-family: 'Fira Sans', sans-serif;
+    background-image: linear-gradient(transparent calc(100% - .4em),#FFB800 .4em);
+    background-size: contain;
+}
+
+h3{
+    
+}
+
+h4{
+    
+}
+
+h5{
+    
+}
+
+h6{
+    
+}
+
+a{
+    font-family: 'Lato';
+}
+
+#get-order{
+    font-family: "Fira Sans";
+    font-weight: bold;
+}

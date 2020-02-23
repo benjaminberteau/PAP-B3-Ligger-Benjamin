@@ -1,0 +1,99 @@
+<html>
+    <head>
+        <meta charset="utf-8">
+        <title>Ligger - panier</title>
+        <link rel="icon" type="image/ico" href="images/favicon.ico"/>  
+        <link rel="apple-touch-icon" sizes="180x180" href="images/apple-touch-icon.png">
+        <link rel="icon" type="image/png" sizes="32x32" href="images/favicon-32x32.png">
+        <link rel="icon" type="image/png" sizes="16x16" href="images/favicon-16x16.png">
+        <link rel="manifest" href="images/site.webmanifest">
+        <meta name="msapplication-TileColor" content="#da532c">
+        <meta name="theme-color" content="#ffffff">
+        <link rel="stylesheet" href="css/main.css">
+        <link rel="stylesheet" href="css/typo.css">
+    </head>
+    <body class="home">
+            <div class="sub-menu">
+                <div class="sub-menu-left">
+                    <ul>
+                            <li><a href="">fb</a></li>
+                            <li><a href="">tw</a></li>
+                            <li><a href="">ytb</a></li>
+                        </ul>
+                        </div>
+                        <div class="sub-menu-right">
+                            <ul>
+                        <li><a href="">Inscription</a></li>
+                        <li><a href=""><b>Connexion</b></a></li>
+                    </ul>
+                </div>
+            </div>
+       
+                
+        <header>
+                <div class="site-id">
+                        <a href="accueil.html"><img src="images/logo2.png" alt="logo" class="logo"></a>
+                    </div> 
+            <nav class="main-menu-left">
+            <ul class="circle-flex">
+                <li><div id="cercle1" style="border: #3D8336 solid; color: #3D8336;"></div><a href="">Choisis tes plats</a></li>
+                <li><div id="cercle2" style="border: #3D8336 solid;"></div><a href=""><b style="color:#3D8336;">Panier</b></a></li>
+                <li><div id="cercle3"></div><a href="">Coordonnées</a></li>
+                <li><div id="cercle4"></div><a href="">Paiement</a></li>
+            </ul>
+           </nav>
+           <nav class="main-menu-right">
+            <ul>
+            <li><a id="get-order" href="achat-panier.html">SUIVANT</a></li>  
+        </ul>
+    
+        </header>
+
+        <h1>Panier</h1>
+        <p style="text-align: center;">Découvre ci-dessous l'ensemble de ton récapitulatif panier.</p>
+
+        <section class="basket-wrapper">
+            <article class="basket-container">
+                <div class="flex-basket">
+                    <img src="images/dishes-02.jpg" alt="">
+                <div class="basket-content">
+                    
+                    <h3>{Recette}</h3>
+                    <p>Ingrédients de la recette qui seront livrées.</p>
+                <div>
+                    <p>Quantité</p>
+                    <input type="text" id="name" name="name" required
+                     minlength="4" maxlength="8" size="10">
+                     <p>Prix : <b>**€</b></p>
+                    </div>
+                </div>
+            </div>
+
+            <div class="flex-basket">
+                    <img src="images/dishes-02.jpg" alt="">
+                <div class="basket-content">
+                    
+                    <h3>{Recette}</h3>
+                    <p>Ingrédients de la recette qui seront livrées.</p>
+                <div>
+                    <p>Quantité</p>
+                    <input type="text" id="name" name="name" size="10">
+                     <p>Prix : <b>**€</b></p>
+                    </div>
+                </div>
+            </div>
+            </article>
+        
+         <article class="flex-content">
+             <div class="left-basket">
+            <p>CODE PROMO</p>
+        </div>
+
+        <div class="right-basket">
+        <input type="text" id="name" placeholder="ex: LiggerForMe" name="name" requiredminlength="4" maxlength="8" size="40">
+        <a href="">APPLIQUER</a>  
+        </div> 
+        </article>
+    </section>
+    </body>
+</html>
